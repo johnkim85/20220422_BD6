@@ -6,24 +6,25 @@ public class BasicIf {
 		int n1=5;
 		int n2=7;
 		if(n1<n2) {
-			//Áß°ýÈ£¿¡ ÀÖ´Â °Í : ¼Ò°ýÈ£ÀÇ Á¶°ÇÀÌ trueÀÏ ¶§ ½ÇÇàÇÒ °Í
+			//ì¤‘ê´„í˜¸ì— ìžˆëŠ” ê²ƒ : ì†Œê´„í˜¸ì˜ ì¡°ê±´ì´ trueì¼ ë•Œ ì‹¤í–‰í•  ê²ƒ
 //			System.out.println("5<7 is true");
 		}
-		//if¹®¿¡ ¼ÓÇÑ ¹®ÀåÀÌ ÇÏ³ªÀÏ °æ¿ì Áß°ýÈ£ »ý·« °¡´É
+		//ifë¬¸ì— ì†í•œ ë¬¸ìž¥ì´ í•˜ë‚˜ì¼ ê²½ìš° ì¤‘ê´„í˜¸ ìƒëžµ ê°€ëŠ¥
 		if(n1<n2)
 			System.out.println("5<7 is true");
-		//µé¿©¾²±â ÁÖÀÇ(if¿¡ ¸Â´Â µé¿©¾²±â´Â ÇÏ³ª)
+		//ë“¤ì—¬ì“°ê¸° ì£¼ì˜(ifì— ë§žëŠ” ë“¤ì—¬ì“°ê¸°ëŠ” í•˜ë‚˜)
 		if(n1>n2)
 			System.out.println("5<7 is true in if");
 		System.out.println("5<7 is true");
 		
-		//if ~ else¹®
+		//if ~ elseë¬¸
 		if(n1==n2) {
 			System.out.println("n1==n2 is true");
 		}else {
-			//¼Ò°ýÈ£ÀÇ Á¶°ÇÀÌ falseÀÏ ¶§ ½ÇÇàµÇ´Â ¿µ¿ª
+			//ì†Œê´„í˜¸ì˜ ì¡°ê±´ì´ falseì¼ ë•Œ ì‹¤í–‰ë˜ëŠ” ì˜ì—­
 			System.out.println("n1==n2 is false");
 		}
 	}
 
 }
+ì•ˆë…•í•˜ì„¸ìš”
